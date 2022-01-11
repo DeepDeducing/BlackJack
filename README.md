@@ -1,7 +1,7 @@
 # Deep Deducing on BlackJack
 
 This repository contains codes of deep deducing solving the black jack problems.
-To reproduce the results in the paper, simply run Deducing.py
+We present two different ways to solve black jack problem. To reproduce the results in the paper, simply run Deducing.py
 
 
 ## Requirements
