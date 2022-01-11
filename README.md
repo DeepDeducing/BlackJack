@@ -1,7 +1,8 @@
 # Deep Deducing on BlackJack
 
 This repository contains codes of deep deducing solving the black jack problems.
-We present two different ways to solve black jack problem. To reproduce the results in the paper, simply run Deducing.py
+We present two different ways to solve black jack problem. The first one does not take the action of the dealer into consideration whereas the second type (adverarial type) takes into consideration.
+To reproduce the results in the paper, simply run Deducing.py
 
 
 ## Requirements
