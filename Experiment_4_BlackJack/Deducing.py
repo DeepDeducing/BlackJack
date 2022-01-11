@@ -25,7 +25,7 @@ def quantifying(array_size, init, interval, input):
 
 final_reward           = 0
 final_reward_          = 0
-for trials in range(100):                                                      # <<<<<<<<<<<<
+for trials in range(10000):                                                    # <<<<<<<<<<<<
 
 
 
