@@ -40,7 +40,7 @@ for trials in range(10000):                                                    #
     weight_lists = list()
     slope_lists  = list()
 
-    n_sets = 5                                                                # <<<<<<<<<<<<
+    n_sets = 4                                                                 # <<<<<<<<<<<<
     for n in range(n_sets):
         weight_name        = "100x100x100_25_0.000001_50m_0.2_[" + str(0 + n + 1) +  "]_weight_list.npy"   # <<<<<<<<<<<<
         slope_name         = "100x100x100_25_0.000001_50m_0.2_[" + str(0 + n + 1) +  "]_slope_list.npy"    # <<<<<<<<<<<<
