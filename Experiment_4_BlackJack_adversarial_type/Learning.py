@@ -96,9 +96,9 @@ for n in range(n_sets):
             state, reward, done, info           = env.step(action)
             action_list[t * 4 + action]         = 1
             if state[1] == previous_dealer_state:
-                action_list[t * 4 + 2 + 0] = 1
-            else:
                 action_list[t * 4 + 2 + 1] = 1
+            else:
+                action_list[t * 4 + 2 + 0] = 1
             final_reward                  += reward
             previous_dealer_state          = state[1]
 
