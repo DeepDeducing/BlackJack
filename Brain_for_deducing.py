@@ -71,8 +71,8 @@ class Brain(object):
         layer_delta        = (layer_delta.dot( self.weight_list[0].T                                                                    ) )     * self.activator_output_to_derivative(layer_list[0])
 
         self.known_and_unkown_input_value_momentum = (0.9       * self.known_and_unkown_input_value_momentum + \
-                                                      self.beta * np.random.uniform(1, 1) * layer_delta      + \
-                                                      0.        * np.random.uniform(1, 1) * ( np.ones_like(layer_delta) * (self.known_and_unkown_input_value[best_solution] + layer_delta[best_solution] * self.beta) - self.known_and_unkown_input_value) ) * self.known_and_unkown_input_value_resistor         # <<<<<<<<<<<<
+                                                      self.beta * np.random.uniform(0, 1) * layer_delta      + \
+                                                      0.        * np.random.uniform(0, 1) * ( np.ones_like(layer_delta) * (self.known_and_unkown_input_value[best_solution] + layer_delta[best_solution] * self.beta) - self.known_and_unkown_input_value) ) * self.known_and_unkown_input_value_resistor         # <<<<<<<<<<<<
 
         self.known_and_unkown_input_value         += self.known_and_unkown_input_value_momentum
 
